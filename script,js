@@ -1,0 +1,19 @@
+
+class Persondetails {
+    constructor(name,age,native) {
+        this.name = `${name} hari`;
+        this.age = age;
+        this.native = native;
+       }
+
+}
+
+class feature extends Persondetails  {
+    constructor(name,age,native,job) {
+        super(name,age,native);
+        this.job = job;
+    }
+
+}
+const narayan = new feature("narayan",20,"karaikudi","IT");
+console.narayan;
